@@ -28,5 +28,4 @@ Of what possible practical utility is this? Not really sure. Although, it does a
 
 
 ## Future Work
-Taking this further, would require
-Analyzing the weights of the network in detail, to see how it represents the function approximation.  Which would be worth doing!
+Taking this further, would require analyzing the weights of the network in detail, to see how it represents the function approximation.  Which would be worth doing!
