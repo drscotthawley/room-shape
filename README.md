@@ -6,7 +6,7 @@ Just sharing a new "toy" result, that relates to function spaces, acoustics, and
 
 During [Karlheinz Brandenburg's visit](http://www.belmont.edu/burs/), he remarked that learning room shapes from the sound of the room is still an open question. So yesterday, "for fun" I decided to try the easiest possible thing I could think of, the most "ideal" if you will:  wrote a NN system that learns to use a set of room mode frequencies to predict (boxy) room dimensions, or vice versa (shown in pic, red=target, green=predicted), within 5%.   It even learns to sort the freqs in ascending order.  i.e. it learns the "Rayleigh Equation" for 3D standing waves... 
 
-$$ f_{nx,ny,nz} = v_s / 2 \sqrt{ \left( {nx \over L} \right)^2  + \left( {ny \over W} \right)^2 + \left( {nz \over H} \right)^2 }, {nx,ny,nz} = 0,1,2,3,... $$
+![](https://www.codecogs.com/eqnedit.php?latex=f_{nx,ny,nz}&space;=&space;{v_s&space;\over&space;2}&space;\sqrt{&space;\left(&space;{nx&space;\over&space;L}&space;\right)^2&space;&plus;&space;\left(&space;{ny&space;\over&space;W}&space;\right)^2&space;&plus;&space;\left(&space;{nz&space;\over&space;H}&space;\right)^2&space;}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{nx,ny,nz}&space;=&space;{v_s&space;\over&space;2}&space;\sqrt{&space;\left(&space;{nx&space;\over&space;L}&space;\right)^2&space;&plus;&space;\left(&space;{ny&space;\over&space;W}&space;\right)^2&space;&plus;&space;\left(&space;{nz&space;\over&space;H}&space;\right)^2&space;}" )
 
 ...both 'forwards' or 'backwards'. 
 
