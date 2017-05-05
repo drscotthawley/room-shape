@@ -1,9 +1,8 @@
 #! /usr/bin/env python
 # Author: Scott Hawley
 
-# Can the system learn to "invert" the Rayleigh equation?
-# Given a subset of room mode frequencies, can we learn the dimensions of the room?
-# (Also we may give it the volume of the room, since volume is proportional to reverb time)
+# Can the system learn the Rayleigh equation?
+# Given the dimensions of the room, can the network learn to generate a (sorted) list of resonant frequencies?
 
 import numpy as np
 import matplotlib.pyplot as plt
