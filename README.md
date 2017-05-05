@@ -18,7 +18,7 @@ During [Karlheinz Brandenburg's visit](http://www.belmont.edu/burs/), he remarke
 
 
 ## Results
-Seems to learn within +/- 5%.   Sample room shown in the picture (red=target, green=predicted), used a training set of 200,000 random rooms.  It even learns to sort the freqs in ascending order.
+Seems to learn within +/- 5%.   Sample room shown in the picture (red=target, green=predicted), used a training set of 200,000 random rooms.  It even learns to sort the freqs in (mostly) ascending order.
 
 ![Sample plot of mode freqs](sample_mode_plot.png)
 
